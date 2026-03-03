@@ -56,6 +56,11 @@ header p {
     width: 100%;
     height: auto;
     display: block;
+    transition: transform 0.4s ease;
+}
+
+.img-container:hover img{
+    transform: scale(1.2);
 }
 
 /* Título do sabor */
@@ -80,14 +85,14 @@ header p {
 }
 
 /* Layout responsivo */
-@media (min-width: 600px) {
+@media (min-width: 500px) {
     .card {
-        width: 45%; /* dois cards por linha em tablets */
+        width: 50%; /* dois cards por linha em tablets */
         margin: 15px 2.5%;
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
     .card {
         width: 30%; /* três cards por linha em desktops */
         margin: 15px 1.66%;
