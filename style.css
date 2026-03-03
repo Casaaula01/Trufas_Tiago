@@ -84,6 +84,38 @@ header p {
     background: #6b2d2d;
 }
 
+.banner-promocao {
+    margin-top: 50px;
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #a30000, #6b2d2d);
+    color: white;
+}
+
+.banner-promocao h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.banner-promocao p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn-banner {
+    background: white;
+    color: #a30000;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-banner:hover {
+    background: #ffd6d6;
+}
+
 /* Layout responsivo */
 @media (min-width: 500px) {
     .card {
