@@ -5,6 +5,9 @@
     padding: 0;
     font-family: Arial, sans-serif;
 }
+body {
+    padding-top: 140px; /* Ajuste conforme a altura real do header */
+}
 
 /* Cabeçalho */
 header {
@@ -13,11 +16,11 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-
+    width: 100%;      /* ADICIONE ISSO */
+    z-index: 1000;    /* Garante que fique acima */
     padding: 30px 20px;
     text-align: center;
 }
-
 header h1 {
     font-size: 2rem;
     margin-bottom: 10px;
@@ -30,6 +33,7 @@ header p {
 /* Seção Sabores */
 .sabores {
     padding: 20px;
+    padding-top: 140px;
     text-align: center;
 }
 
